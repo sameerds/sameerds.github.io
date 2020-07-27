@@ -1,0 +1,280 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>The Inward Spiral</title>
+		<meta name="description" content="">
+		<meta name="author" content="Sameer Sahasrabuddhe">
+
+		<link rel="stylesheet" href="https://pelican.sbuddhe.net/theme/css/foundation.css" />
+		<link rel="stylesheet" href="https://pelican.sbuddhe.net/theme/css/pygment/monokai.css" />
+		<link rel="stylesheet" href="https://pelican.sbuddhe.net/theme/css/custom.css" />
+
+
+		<script src="https://pelican.sbuddhe.net/theme/js/modernizr.js"></script>
+
+		<!-- Feeds -->
+		<link href="https://pelican.sbuddhe.net/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Inward Spiral Atom Feed" />
+
+
+		<!-- mathjax config similar to math.stackexchange -->
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			jax: ["input/TeX", "output/HTML-CSS"],
+			tex2jax: {
+				inlineMath: [ ['$', '$'] ],
+				displayMath: [ ['$$', '$$']],
+				processEscapes: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+			},
+			messageStyle: "none",
+			"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+		});
+		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	</head>
+	<body>
+		<div class="off-canvas-wrap">
+			<div class="inner-wrap">
+				<!-- mobile top bar to activate nav -->
+				<nav class="tab-bar show-for-small">
+					<section class="left-small">
+						<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+					</section>
+
+					<section class="middle tab-bar-section">
+						<h1 class="title">The&nbsp;Inward&nbsp;Spiral</h1>
+					</section>
+				</nav>
+
+				<!-- mobile side bar nav -->
+				<aside class="left-off-canvas-menu">
+					<ul class="off-canvas-list">
+						<li><a href="https://pelican.sbuddhe.net">Home</a></li>
+
+
+						<li><label>Contact</label></li>
+						        <li>sameer@sbuddhe.net</li>
+							<li><a href="https://github.com/sameerds">GitHub Personal</a></li>
+							<li><a href="https://github.com/ssahasra">GitHub Work</a></li>
+							<li><a href="https://linkedin.com/in/sameerds">LinkedIn</a></li>
+					</ul>	
+				</aside>
+
+				<!-- top bar nav -->
+				<nav class="top-bar hide-for-small-only" data-topbar>
+					<ul class="title-area">
+						<li class="name">
+							<h1><a href="https://pelican.sbuddhe.net/">The Inward Spiral: Hitchhiker in the Noosphere</a></h1>
+						</li>
+					</ul>
+
+					<section class="top-bar-section">
+                        <ul class="right">                                                                                                                                           
+                                                                                                                                             
+                        </ul>  
+					</section>
+				</nav>
+
+				<!-- Main Page Content and Sidebar -->
+				<section class="main-section">
+					<div class="row">
+						<!-- Main Content -->
+						<div class="medium-9 small-12 columns" role="content">
+<article>
+	<h2>finally, the journal goes live!</h2>
+	<p>I'd always been &quot;left out&quot; of the blogging scene simply because I couldn't get myself around to shift to livejournal. I've been writing rather infrequently on my own site, though.</p>
+<div class="line-block">
+<div class="line">Finally, here I am ... on LJ! I had tried command-line clients a year ago, that would help me upload my MySQL based blog to LJ. But I gave up, after some frustrating attempts at batch mode submissions through proxies. This time around, I managed to pull it off in two hours, and I have the time stamps to prove it!</div>
+<div class="line"><br /></div>
+<div class="line">It's all thanks to <a class="reference external" href="http://www.cis.rit.edu/~jerry/Software/perl/#jlj">JLJ</a>, the perl based command-line client. It has a nifty queuing system that can upload a bunch of entries from simple-to-edit text files. All it took was a perl script that dumped back-dated entries into serially numbered files. JLJ did its magic after that.</div>
+</div>
+<p>Now about the time-stamps ... was chatting with <a class="reference external" href="http://vipul.livejournal.com/">vipul</a> when I re-embarked on this grand endeavour. He discovers that I had created this account exactly two years and one day ago! Co-incidence? Divine plans?</p>
+<p>Anyway, also pasting a log of our conversation ... a partial account of the events that led to this posting. Makes me feel like Charlie Kaufman.</p>
+<blockquote>
+<div class="line-block">
+<div class="line">(21:30:23) sameerds: hey you there?</div>
+<div class="line">(21:30:36) vipulmathur: ya</div>
+<div class="line">(21:31:04) sameerds: i am back in upload-blog-to-livejournal mode :D</div>
+<div class="line">(21:31:19) vipulmathur: wah wah</div>
+<div class="line">(21:31:22) sameerds: thinking of trying out the command line clients and see if any of them can work in batch mode</div>
+<div class="line">(21:31:36) vipulmathur: interesting :)</div>
+<div class="line">(21:31:38) sameerds: so i can dump my own blog entries and put them up backdated on livejournal</div>
+<div class="line">(21:31:50) vipulmathur: ya.. good idea</div>
+<div class="line">(21:31:59) sameerds: thought i should do a quick check and see if you've heard of a way</div>
+<div class="line">(21:32:15) vipulmathur: might want to look at some of the gui clients as well... they might have an &quot;import&quot; feature</div>
+<div class="line">(21:32:29) vipulmathur: dunno of any exact one though</div>
+<div class="line">(21:32:53) sameerds: ok JLJ seems to have an offline mode, and the release file says the &quot;queue file&quot; is documented</div>
+<div class="line">(21:32:58) sameerds: maybe that's all i'll need</div>
+<div class="line">(21:33:06) sameerds: stay tuned for updates B-)</div>
+<div class="line">(21:33:45) vipulmathur: :) kewl</div>
+<div class="line">(21:33:51) vipulmathur: keep me posted</div>
+<div class="line">(21:33:56) vipulmathur: btw lj user=?</div>
+<div class="line">(21:34:08) sameerds: sameerds</div>
+<div class="line">(21:34:13) sameerds: unused so far</div>
+<div class="line">(21:34:16) vipulmathur: :&gt;</div>
+<div class="line">(21:34:26) sameerds: why the naughty smile?</div>
+<div class="line">(21:35:07) vipulmathur: lucky you</div>
+<div class="line">(21:36:18) sameerds: ??</div>
+<div class="line">(21:36:27) sameerds: oh because i got my default id, is it?</div>
+<div class="line">(21:36:33) vipulmathur: ya duh</div>
+<div class="line">(21:36:36) vipulmathur: :)</div>
+<div class="line">(21:36:40) vipulmathur: how about trantor5</div>
+<div class="line">(21:36:44) vipulmathur: its free too</div>
+<div class="line">(21:36:49) vipulmathur: :D</div>
+<div class="line">(21:37:22) sameerds: hehe</div>
+<div class="line">(21:37:44) sameerds: sounds nice actually ... my online handle, if i ever use it, is actually &quot;ashant&quot;</div>
+<div class="line">(21:38:12) vipulmathur: hmm... :-?</div>
+<div class="line">(21:48:23) sameerds: it woiked it woiked</div>
+<div class="line">(21:48:34) sameerds: <a class="reference external" href="http://sameerds.livejournal.com/">http://sameerds.livejournal.com/</a></div>
+<div class="line">(21:48:34) vipulmathur: =D&gt;</div>
+<div class="line">(21:48:41) vipulmathur: already there :)</div>
+<div class="line">(21:48:44) sameerds: a back-date entry in batch mode!</div>
+<div class="line">(21:49:01) sameerds: now all i need is a script to dump my blog in the original format</div>
+<div class="line">(21:49:31) vipulmathur: I just saw the transition from &quot;updated 59 weeks ago&quot; to &quot;updated 48 seconds ago&quot; :D</div>
+<div class="line">(21:49:37) sameerds: hehe</div>
+<div class="line">(21:50:16) vipulmathur: so has the dream come true? :&gt;</div>
+<div class="line">(21:50:42) vipulmathur: [Feb. 22nd, 2005|09:42 pm] it says</div>
+<div class="line">(21:51:36) sameerds: right</div>
+<div class="line">(21:52:06) sameerds: one more entry ... just checking if renaming the queue files works ...</div>
+<div class="line">(21:52:34) sameerds: hmmm ... now its time for perl, and perldb ... since my blog is in mysql</div>
+<div class="line">(21:52:57) vipulmathur: hmm</div>
+<div class="line">(21:53:55) vipulmathur: you created your LJ account 1 year and one day + delta ago?</div>
+<div class="line">(21:54:02) vipulmathur: oops 2 years</div>
+<div class="line">(21:54:21) sameerds: why do you reckon that?</div>
+<div class="line">(21:54:35) sameerds: because of the entry?</div>
+<div class="line">(21:55:06) sameerds: &quot;last updated 59 weeks ago&quot; ... remember?</div>
+<div class="line">(21:55:26) sameerds: that entry i made was just a try at back dating ... changed the year for a new test entry in the queue</div>
+<div class="line">(21:55:45) vipulmathur: ya but 59 weeks == 1 year+ some weeks</div>
+<div class="line">(21:55:50) sameerds: oh ok</div>
+<div class="line">(21:55:52) sameerds: yeah</div>
+<div class="line">(21:56:09) vipulmathur: Date created:2004-02-21 03:49:21Date updated:2006-02-22 16:21:32, 1 minute ago</div>
+<div class="line">(21:56:11) sameerds: 1 year, one month and some more</div>
+<div class="line">(21:56:16) sameerds: oh cool</div>
+<div class="line">(21:56:20) sameerds: amazing! :D</div>
+<div class="line">(21:56:24) vipulmathur: <a class="reference external" href="http://sameerds.livejournal.com/profile?mode=full">http://sameerds.livejournal.com/profile?mode=full</a></div>
+<div class="line">(21:56:31) vipulmathur: is that a co-incidence :O</div>
+<div class="line">(21:56:45) vipulmathur: I mean the 2 year thing</div>
+<div class="line">(21:57:00) sameerds: it sure is! good matter for my first &quot;fresh&quot; blog entry, eh?</div>
+<div class="line">(21:57:14) vipulmathur: you bet!</div>
+<div class="line">(21:57:27) sameerds: time for an FLab-style night out now ...</div>
+<div class="line">(21:57:37) vipulmathur: he he :D</div>
+<div class="line">(21:58:18) sameerds: hell ... i am going to post this conversation itself ... reminds me of that movie ... &quot;adaptation&quot;</div>
+<div class="line">(21:58:31) sameerds: the one about the book about the orchids</div>
+<div class="line">(21:58:41) sameerds: nicholas cage in a double role</div>
+<div class="line">(21:59:25) vipulmathur: yo</div>
+<div class="line">(22:00:05) enjoy it dude! may the source be with you!</div>
+</div>
+</blockquote>
+
+	<hr/>
+	<h6>Written by <a href="https://pelican.sbuddhe.net/author/sameer.html">sameer</a> in <a href="https://pelican.sbuddhe.net/category/uncategorized.html">Uncategorized</a> on Wed 22 February 2006. Tags: <a href="https://pelican.sbuddhe.net/tag/meta.html">meta</a>, </h6>
+</article>
+
+<hr/>
+						</div>
+						<!-- End Main Content -->
+						<!-- Sidebar -->
+						<aside class="medium-3 hide-for-small-only columns">
+							<div class="panel">
+								<h5>Tags</h5>
+								<ul class="tag-cloud">
+									<li><a href="/tag/kde.html" class="tag-4">kde</a></li>
+									<li><a href="/tag/meme.html" class="tag-4">meme</a></li>
+									<li><a href="/tag/new-year.html" class="tag-4">new year</a></li>
+									<li><a href="/tag/quarter.html" class="tag-4">quarter</a></li>
+									<li><a href="/tag/insurance.html" class="tag-4">insurance</a></li>
+									<li><a href="/tag/makaan.html" class="tag-3">makaan</a></li>
+									<li><a href="/tag/meta.html" class="tag-1">meta</a></li>
+									<li><a href="/tag/publication.html" class="tag-3">publication</a></li>
+									<li><a href="/tag/investment.html" class="tag-2">investment</a></li>
+									<li><a href="/tag/usability.html" class="tag-4">usability</a></li>
+									<li><a href="/tag/phase-three.html" class="tag-3">phase three</a></li>
+									<li><a href="/tag/ds9.html" class="tag-3">ds9</a></li>
+									<li><a href="/tag/latex.html" class="tag-4">latex</a></li>
+									<li><a href="/tag/notebook.html" class="tag-4">notebook</a></li>
+									<li><a href="/tag/free-software.html" class="tag-1">free software</a></li>
+									<li><a href="/tag/motorola.html" class="tag-4">motorola</a></li>
+									<li><a href="/tag/gold.html" class="tag-4">gold</a></li>
+									<li><a href="/tag/firefox.html" class="tag-3">firefox</a></li>
+									<li><a href="/tag/pune.html" class="tag-4">pune</a></li>
+									<li><a href="/tag/beamer.html" class="tag-4">beamer</a></li>
+									<li><a href="/tag/email-scam.html" class="tag-4">email scam</a></li>
+									<li><a href="/tag/hacked.html" class="tag-1">hacked</a></li>
+									<li><a href="/tag/netizens.html" class="tag-4">netizens</a></li>
+									<li><a href="/tag/sci-fi.html" class="tag-3">sci-fi</a></li>
+									<li><a href="/tag/nitpicks.html" class="tag-4">nitpicks</a></li>
+									<li><a href="/tag/computers.html" class="tag-2">computers</a></li>
+									<li><a href="/tag/advice.html" class="tag-4">advice</a></li>
+									<li><a href="/tag/mlp.html" class="tag-2">mlp</a></li>
+									<li><a href="/tag/presentations.html" class="tag-4">presentations</a></li>
+									<li><a href="/tag/cplusplus.html" class="tag-4">cplusplus</a></li>
+									<li><a href="/tag/programming.html" class="tag-3">programming</a></li>
+									<li><a href="/tag/mark.html" class="tag-3">mark</a></li>
+									<li><a href="/tag/mammon.html" class="tag-4">mammon</a></li>
+									<li><a href="/tag/ghosts.html" class="tag-4">ghosts</a></li>
+									<li><a href="/tag/sci-tech.html" class="tag-4">sci-tech</a></li>
+									<li><a href="/tag/phd.html" class="tag-2">phd</a></li>
+									<li><a href="/tag/free-software,-life.html" class="tag-4">free software, life</a></li>
+									<li><a href="/tag/farts.html" class="tag-1">farts</a></li>
+									<li><a href="/tag/rupee.html" class="tag-4">rupee</a></li>
+									<li><a href="/tag/desktop.html" class="tag-3">desktop</a></li>
+									<li><a href="/tag/blarg.html" class="tag-2">blarg</a></li>
+									<li><a href="/tag/knotty-stuff.html" class="tag-3">knotty stuff</a></li>
+									<li><a href="/tag/usb.html" class="tag-4">usb</a></li>
+									<li><a href="/tag/don't-panic.html" class="tag-2">don't panic</a></li>
+									<li><a href="/tag/driving.html" class="tag-4">driving</a></li>
+									<li><a href="/tag/reading.html" class="tag-2">reading</a></li>
+									<li><a href="/tag/mutual-funds.html" class="tag-4">mutual funds</a></li>
+									<li><a href="/tag/don't-panic,-free-software,-life.html" class="tag-4">don't panic, free software, life</a></li>
+									<li><a href="/tag/sp.html" class="tag-3">sp</a></li>
+									<li><a href="/tag/life.html" class="tag-2">life</a></li>
+									<li><a href="/tag/standards.html" class="tag-2">standards</a></li>
+									<li><a href="/tag/marvin.html" class="tag-2">marvin</a></li>
+									<li><a href="/tag/iterators.html" class="tag-4">iterators</a></li>
+									<li><a href="/tag/campus-life.html" class="tag-1">campus life</a></li>
+									<li><a href="/tag/shopping.html" class="tag-4">shopping</a></li>
+									<li><a href="/tag/comics.html" class="tag-4">comics</a></li>
+									<li><a href="/tag/icici.html" class="tag-2">icici</a></li>
+									<li><a href="/tag/star-trek.html" class="tag-3">star trek</a></li>
+									<li><a href="/tag/idle-thoughts.html" class="tag-1">idle thoughts</a></li>
+									<li><a href="/tag/outdoors.html" class="tag-2">outdoors</a></li>
+								</ul>
+							</div>
+
+
+							<div class="panel">
+								<h5>Contact</h5>
+								<ul class="side-nav">
+									<li>sameer@sbuddhe.net</li>
+									<li><a href="https://github.com/sameerds">GitHub Personal</a></li>
+									<li><a href="https://github.com/ssahasra">GitHub Work</a></li>
+									<li><a href="https://linkedin.com/in/sameerds">LinkedIn</a></li>
+								</ul>
+							</div>
+						</aside>
+						<!-- End Sidebar -->
+					</div>
+
+					<!-- Footer -->
+					<footer class="row">
+						<div class="medium-9 small-12">
+							<hr/>
+							<p class="text-center">Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://foundation.zurb.com/">Zurb Foundation</a>. Theme by <a href="http://hamaluik.com">Kenton Hamaluik</a>.</p>
+						</div>
+					</footer>
+					<!-- End Footer -->
+				</section>
+				<a class="exit-off-canvas"></a>
+			</div><!--off-canvas inner-->
+		</div><!--off-canvas wrap-->
+
+		<script src="https://pelican.sbuddhe.net/theme/js/jquery.js"></script>
+		<script src="https://pelican.sbuddhe.net/theme/js/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+	</body>
+</html>
